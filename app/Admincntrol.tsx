@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Admincnrol() {
@@ -8,9 +9,19 @@ export default function Admincnrol() {
       </div>
       <span className='border-1 border-gray-400 w-5/6 m-1'></span>
       <div className='flex flex-col items-center gap-10 w-5/6' style={{marginTop:"15px"}}>
-        <div className='bg-blue-500 rounded-2xl w-5/6 text-center text-white cursor-pointer' style={{padding:"10px"}}>لوحة التحكم</div>
+      <Link href="/" >
+  
+        <div className='bg-blue-500 rounded-2xl w-5/6 text-center text-white cursor-pointer' style={{padding:"10px"}}
+        >لوحة التحكم</div>
+    </Link>
+        <Link href="/piernt">
+    
         <div className='cursor-pointer'>المرضي</div>
-        <div className='cursor-pointer'>الموعيد</div>
+            </Link>
+            <Link href="/time">
+                    <div className='cursor-pointer'>الموعيد</div>
+
+            </Link>
         <div className='cursor-pointer'>تحليل التقرير </div>
         <div className='cursor-pointer'>الادوية</div>
       </div>
