@@ -22,6 +22,7 @@ export default function Admincnrol() {
                     <div className='cursor-pointer'>الموعيد</div>
 
             </Link>
+        <div className='cursor-pointer'>الرسايل</div>
         <div className='cursor-pointer'>تحليل التقرير </div>
         <div className='cursor-pointer'>الادوية</div>
       </div>

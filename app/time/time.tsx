@@ -56,7 +56,9 @@ export default function Time() {
 </div>
 <div className='flex justify-between' style={{borderBottom:"1px solid #c1b9b9", padding:" 10px 40px "}}>
     <h2 className='cursor-pointer text-green-400 font-medium'> محمد نبيل </h2>
-  <h4 className='w-20'>انا تعبان جدا و مستعجل</h4>
+  <h4 className='w-20'>انا تعبان جدا و مستعجل
+    
+  </h4>
     <h2>01110094460</h2>
     <h2>22/2/2025</h2>
     <h2>  <span className='text-green-600 bg-green-100 px-3 py-1 rounded-full text-sm'>
