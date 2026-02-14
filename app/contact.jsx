@@ -1,8 +1,12 @@
-import React from 'react'
+"use client";
+import React, { useState } from "react";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import Mlahotha from './mlahotha';
+import BookingPopup from './booking-pop';
 export default function Contact() {
+    const [open, setOpen] = useState(false); // 👈 دي كانت ناقصة
+
   return (
     <div>
      
@@ -44,7 +48,15 @@ export default function Contact() {
           <h1 className='text-right font-bold mb-4'>الإجراءات السريعة</h1>
 
           <div className='grid grid-cols-2 gap-4'>
-            <button className='bg-green-500 text-white rounded-xl p-4 h-20 cursor-pointer'>حجز موعد</button>
+            <button className='bg-green-500 text-white rounded-xl p-4 h-20 cursor-pointer' onClick={() => setOpen(true)}>حجز موعد</button>
+             <BookingPopup
+        open={open}
+        onClose={() => setOpen(false)}
+        onSubmit={() => {
+          setOpen(false);
+          // هنا بقى انت اربطها بالـ state / database / next router
+        }}
+      />
             <button className='bg-blue-500 text-white rounded-xl p-4 h-20 cursor-pointer'>إضافة مريض</button>
             <button className='bg-purple-500 text-white rounded-xl p-4 h-20 cursor-pointer'>إضافة تقرير</button>
             <button className='bg-teal-500 text-white rounded-xl p-4 h-20 cursor-pointer'>إضافة طبيب</button>

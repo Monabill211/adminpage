@@ -17,6 +17,8 @@ export default function Time() {
     <h2>ملحوظة</h2>
     <h2>رقم الهاتف</h2>
     <h2>تاريخ التسجيل </h2>
+    <h2>تاريخ الزياره </h2>
+    <h2>وقت الزياره</h2>
     <h2>الحالة</h2>
 </div>
 <div className='flex justify-between' style={{borderBottom:"1px solid #c1b9b9", padding:" 10px 40px "}}>
@@ -26,6 +28,8 @@ export default function Time() {
   </h4>
     <h2>01110094460</h2>
     <h2>22/2/2025</h2>
+    <h2>السبت-25/2/2025</h2>
+    <h2>08:00م</h2>
     <h2>  <span className='text-green-600 bg-green-100 px-3 py-1 rounded-full text-sm'>
     <select>
         <option>تاكيد</option>
@@ -39,6 +43,8 @@ export default function Time() {
     <h4 className='w-20'>عاوز اقابل الدكتور بسرعة</h4>
     <h5>01021219588 </h5>
     <h1>25/2/2026</h1>
+    <h2>السبت-25/2/2025</h2>
+    <h2>08:00م</h2>
     <h2>  <span className='text-green-600 bg-green-100 px-3 py-1 rounded-full text-sm'>
     <select>
         <option>تاكيد</option>
@@ -52,6 +58,8 @@ export default function Time() {
       <h4 className='w-20'>عاوز اقابل الدكتور بسرعة</h4>
     <h5>01021219588 </h5>
     <h1>25/2/2026</h1>
+    <h2>السبت-25/2/2025</h2>
+    <h2>08:00م</h2>
     <h2>  <span className='text-green-600 bg-green-100 px-3 py-1 rounded-full text-sm'>
     <select>
         <option>تاكيد</option>
@@ -65,6 +73,8 @@ export default function Time() {
      <h4 className='w-20'>عاوز اقابل الدكتور بسرعة</h4>
     <h5>01021219588 </h5>
     <h1>25/2/2026</h1>
+    <h2>السبت-25/2/2025</h2>
+    <h2>08:00م</h2>
      <h2>  <span className='text-green-600 bg-green-100 px-3 py-1 rounded-full text-sm'>
     <select>
         <option>تاكيد</option>
@@ -78,6 +88,8 @@ export default function Time() {
      <h4 className='w-20'>عاوز اقابل الدكتور بسرعة</h4>
     <h5>01021219588 </h5>
     <h1>25/2/2026</h1>
+    <h2>السبت-25/2/2025</h2>
+    <h2>08:00م</h2>
    <h2>  <span className='text-green-600 bg-green-100 px-3 py-1 rounded-full text-sm'>
     <select>
         <option>تاكيد</option>
